@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+
+    font-family: 'Cuprum', sans-serif;
+    font-family: 'Onest', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+
+
+nav {
+    border: 1px solid rgb(66, 65, 65);
+    width: 100vw;
+    height: 8vh;
+    background-color: #333;
+
+
+}
+
+nav:hover {
+
+    box-shadow: 3px 2px 34px rgb(170, 166, 166);
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+
+
+}
+
+a.navname {
+    /* border: 1px solid black; */
+    padding: 4px;
+    padding-left: 21px;
+    padding-right: 21px;
+    border-radius: 13px;
+    background-color: rgb(103, 205, 77);
+    color: black;
+
+}
+
+a.navname:hover {
+    box-shadow: 2px 3px 5px rgb(110, 108, 107);
+    background-color: black;
+    color: white;
+
+}
+
+.center {
+    position: relative;
+    left: 40vw;
+    top: 2.9vh;
+
+}
+
+.heading1 {
+    position: relative;
+    /* border: 1px solid rgb(151, 150, 150); */
+    background-color: #dadada;
+    padding: 23px;
+    /* top: 8vh; */
+    margin-top: 8vh;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.maincontent {
+    border: 1px solid rgb(151, 150, 150);
+    background-color: white;
+    height: 2948px;
+    margin-top: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.cards {
+
+    display: inline-block;
+    width: 15vw;
+    height: 50vh;
+    border: 1px solid rgb(223, 217, 217);
+    border-radius: 11px;
+    box-shadow: 2px 4px 18px rgb(220, 217, 217);
+    margin: 23px;
+    padding: 5px;
+
+}
+
+.cards:hover {
+    box-shadow: 2px 4px 18px black;
+}
+
+.image img {
+
+    width: 100%;
+    border: 1px solid rgb(181, 187, 184);
+    border-radius: 7px;
+}
+
+span {
+    display: inline-block;
+}
+
+.nature {
+
+
+    border: 1px solid black;
+    padding: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 11px;
+    margin: 7px;
+    background-color: rgb(252, 252, 252);
+}
+
+.nature:hover {
+
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 4px 18px black;
+}
+
+h2 {
+    margin: 7px;
+    margin-left: 4px;
+
+}
+
+p {
+    margin: 6px;
+}
+
+button {
+
+    /* border: 1px solid rgb(100, 97, 97); */
+    border: none;
+    padding: 5px;
+    border-radius: 12px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-top: 29px;
+    margin-left: 31%;
+
+}
+
+button:hover {
+
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 4px 18px black;
+}
+
+
+
+
+.footer {
+
+    height: 340px;
+    background-color: rgb(196, 193, 193);
+
+
+}
+
+.about p {
+
+    padding: 23px;
+    padding-left: 8px;
+    font-size: 23px;
+
+}
+
+
+img.map {
+
+    float: right;
+
+}
+
+a.handle {
+    position: relative;
+    padding: 6px;
+    margin: 12px;
+    top: 113px;
+    width: 3px;
+    height: 2px;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding-top: 29px;
+    padding-left: 13px;
+    padding-right: 13px;
+    color: rgb(196, 193, 193);
+    background-color: #dadada;
+
+}
+
+
+a.youtube {
+
+    padding-bottom: 9px;
+    padding-top: 28px;
+
+}
+
+
+a.handle:hover {
+
+    background-color: rgb(178, 176, 176);
+    box-shadow: 3px 5px 9px rgb(120, 108, 108);
+
+
+
+}
+
+
+
+.contactus {
+    position: relative;
+    top: 83px;
+    left: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* CSS for the navigation bar */
+/* ul.nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+        }
+
+        ul.nav li {
+            display: inline;
+        }
+
+        ul.nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        ul.nav li a:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <!-- HTML for the navigation bar -->
+    
+</body>
+</html> */
